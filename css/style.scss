@@ -1,18 +1,13 @@
 @import 'colors';
 @import 'fonts';
 @import 'cards';
+@import 'matchcards';
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: $primary_font;
-}
-
-span {
-  & .navbar-toggler-icon {
-    border-color: rgba(255, 255, 255);
-  }
 }
 
 .nav-item a {

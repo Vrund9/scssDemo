@@ -1,0 +1,91 @@
+.match_class {
+  padding: 50px 0px 50px 0px;
+  display: grid;
+  place-items: center center;
+
+  & .match_india {
+    text-align: left;
+    justify-content: left;
+    font-family: $secondaryFont;
+    font-size: 28px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+
+  & .match_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    grid-gap: 40px;
+  }
+
+  & .matchCard {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+  }
+
+  & .container {
+    position: relative;
+
+    & .header_part {
+      background-color: $borderColor;
+      border-radius: 5px;
+      margin: 0px;
+      padding: 5px 10px 5px 10px;
+      height: 30px;
+      color: white;
+      & h6 {
+        float: left;
+      }
+      & p {
+        float: right;
+      }
+    }
+
+    & .class_part {
+      margin-top: -10px;
+      padding-left: 5px;
+      & .firsText {
+        color: $fontColor;
+        font-family: $secondaryFont;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+    & .mini_grid_of_mainpart {
+      display: grid;
+
+      & .mini_grid_of_mainpart_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 0px 20px 0px;
+        grid-gap: 15px;
+
+        & .teamName {
+          font-family: $secondaryFont;
+          font-size: 16px;
+          font-weight: 800;
+        }
+      }
+    }
+
+    & .imgLeft {
+      float: left;
+    }
+
+    & .scoreRight {
+      float: right;
+    }
+
+    & .footer_result {
+      font-family: $secondaryFont;
+      color: $fontColor;
+      font-size: 14px;
+      font-weight: 800;
+      font-style: italic;
+    }
+  }
+}

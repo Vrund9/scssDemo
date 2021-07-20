@@ -6,9 +6,11 @@
 }
 
 .cardPart h3 {
+  font-family: "Helvetica Neue";
   font-weight: 800;
   margin-bottom: 20px;
   margin-top: 30px;
+  font-style: italic;
 }
 
 .cardPart .cards {
@@ -103,15 +105,106 @@
   }
 }
 
+.match_class {
+  padding: 50px 0px 50px 0px;
+  display: grid;
+  place-items: center center;
+}
+
+.match_class .match_india {
+  text-align: left;
+  justify-content: left;
+  font-family: "Helvetica Neue";
+  font-size: 28px;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.match_class .match_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  grid-gap: 40px;
+}
+
+.match_class .matchCard {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+
+.match_class .container {
+  position: relative;
+}
+
+.match_class .container .header_part {
+  background-color: #009bfe;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 5px 10px 5px 10px;
+  height: 30px;
+  color: white;
+}
+
+.match_class .container .header_part h6 {
+  float: left;
+}
+
+.match_class .container .header_part p {
+  float: right;
+}
+
+.match_class .container .class_part {
+  margin-top: -10px;
+  padding-left: 5px;
+}
+
+.match_class .container .class_part .firsText {
+  color: #0a4199;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.match_class .container .mini_grid_of_mainpart {
+  display: grid;
+}
+
+.match_class .container .mini_grid_of_mainpart .mini_grid_of_mainpart_items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0px 20px 0px;
+  grid-gap: 15px;
+}
+
+.match_class .container .mini_grid_of_mainpart .mini_grid_of_mainpart_items .teamName {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.match_class .container .imgLeft {
+  float: left;
+}
+
+.match_class .container .scoreRight {
+  float: right;
+}
+
+.match_class .container .footer_result {
+  font-family: "Helvetica Neue";
+  color: #0a4199;
+  font-size: 14px;
+  font-weight: 800;
+  font-style: italic;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto";
-}
-
-span .navbar-toggler-icon .line {
-  color: #fff !important;
 }
 
 .nav-item a {
