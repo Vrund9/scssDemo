@@ -14,7 +14,7 @@
   & .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 20px;
+    padding: 20px 0 20px 0;
     grid-gap: 40px;
   }
 
@@ -93,6 +93,46 @@
       font-size: 14px;
       line-height: 30px;
       font-weight: 400px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .cardPart {
+    place-items: center center;
+
+    & .cards {
+      padding: 0 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cardPart {
+    place-items: center center;
+
+    & .cards {
+      padding: 0 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .cardPart {
+    place-items: center center;
+
+    & .cards {
+      padding: 0 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cardPart {
+    place-items: center center;
+
+    & .cards {
+      padding: 0 0 0 0;
     }
   }
 }
