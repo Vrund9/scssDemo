@@ -110,7 +110,7 @@
   font-family: "Roboto";
 }
 
-span .navbar-toggler-icon {
+span .navbar-toggler-icon .line {
   color: #fff !important;
 }
 
