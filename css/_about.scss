@@ -1,0 +1,40 @@
+.section_about {
+  font-family: $secondaryFont;
+  padding: 50px;
+  & .leftSide {
+    padding: 30px;
+
+    & h5 {
+      font-family: $secondaryFont;
+      font-size: 22px;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    & h6 {
+      font-family: $secondaryFont;
+      font-size: 14px;
+      color: $borderColor;
+    }
+
+    & p {
+      text-align: justify;
+      font-family: $secondaryFont;
+    }
+
+    & span {
+      font-family: $secondaryFont;
+      font-size: 15px;
+      font-weight: 800;
+      font-style: italic;
+    }
+  }
+
+  & .rightSide {
+    padding: 30px;
+
+    & .r1 {
+      margin-bottom: 5px;
+    }
+  }
+}

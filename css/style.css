@@ -128,8 +128,7 @@
   grid-gap: 30px;
 }
 
-.match_class .matchCard {
-  padding: 10px;
+.match_class .card {
   border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
@@ -200,6 +199,73 @@
   font-style: italic;
 }
 
+@media (max-width: 576px) {
+  .match_class {
+    place-items: center center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .match_class {
+    place-items: center center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .match_class {
+    place-items: center center;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .match_class {
+    padding: 50px 0px 50px 0px;
+    place-items: center center;
+  }
+}
+
+.section_about {
+  font-family: "Helvetica Neue";
+  padding: 50px;
+}
+
+.section_about .leftSide {
+  padding: 30px;
+}
+
+.section_about .leftSide h5 {
+  font-family: "Helvetica Neue";
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.section_about .leftSide h6 {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  color: #009bfe;
+}
+
+.section_about .leftSide p {
+  text-align: justify;
+  font-family: "Helvetica Neue";
+}
+
+.section_about .leftSide span {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.section_about .rightSide {
+  padding: 30px;
+}
+
+.section_about .rightSide .r1 {
+  margin-bottom: 5px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -229,8 +295,21 @@
   margin-top: 70px;
 }
 
+.MainLayout .para h4 {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+}
+
+.MainLayout .para h6 {
+  font-family: "Helvetica Neue";
+  color: #009bfe;
+}
+
 .MainLayout p {
   text-align: justify;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-size: 15px;
 }
 
 @media (max-width: 576px) {

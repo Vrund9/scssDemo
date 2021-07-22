@@ -2,6 +2,7 @@
 @import 'fonts';
 @import 'cards';
 @import 'matchcards';
+@import 'about';
 
 * {
   margin: 0px;
@@ -29,9 +30,22 @@
 
   & .para {
     margin-top: 70px;
+
+    & h4 {
+      font-family: $secondaryFont;
+      font-style: italic;
+    }
+
+    & h6 {
+      font-family: $secondaryFont;
+      color: $borderColor;
+    }
   }
   & p {
     text-align: justify;
+    font-family: $secondaryFont;
+    font-weight: 400;
+    font-size: 15px;
   }
 }
 
