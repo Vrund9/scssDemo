@@ -266,6 +266,202 @@
   margin-bottom: 5px;
 }
 
+@media (max-width: 576px) {
+  .imgDiv {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .r1 {
+    margin-top: 0px !important;
+  }
+  .imgDiv {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .imgDiv img {
+    height: 170 !important;
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .r1 {
+    margin-top: 100px !important;
+  }
+  .imgDiv {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .imgDiv img {
+    height: 100%;
+    width: 120%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .r1 {
+    margin-top: 50px !important;
+  }
+  .imgDiv {
+    text-align: center;
+  }
+  .imgDiv img {
+    height: 100%;
+    width: 120%;
+  }
+}
+
+.teampart {
+  background-color: #e9ecef;
+}
+
+.teampart .team {
+  padding: 50px;
+}
+
+.teampart .team .fullcontent h3 {
+  font-family: "Helvetica Neue";
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teampart .team .fullcontent h5 {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  color: #009bfe;
+  font-style: italic;
+}
+
+.teampart .team .fullcontent p {
+  font-style: left;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .card img {
+    height: 100%;
+    width: 100%;
+  }
+  .card h5 {
+    font-size: 14px;
+  }
+  .card p {
+    font-size: 12px;
+    text-justify: distribute-all-lines;
+  }
+}
+
+.sponsor {
+  padding: 50px;
+}
+
+.sponsor h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: italic;
+}
+
+.sponsor .byju img {
+  height: 120px;
+  width: 200px;
+  margin-left: 60px;
+}
+
+.sponsor .paytm img {
+  height: 80px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.sponsor .star img {
+  height: 100px;
+  width: 100px;
+  margin-left: 80px;
+}
+
+.sponsor .dream img {
+  height: 100px;
+  width: 100px;
+  margin-left: 80px;
+}
+
+@media (max-width: 576px) {
+  .sponsor .byju img {
+    width: 200px !important;
+    margin-left: 70px !important;
+  }
+  .sponsor .paytm img {
+    height: 80px !important;
+    width: 200px !important;
+    margin-left: 70px !important;
+  }
+  .sponsor .star img {
+    height: 100px !important;
+    width: 100px !important;
+    margin-top: 30px !important;
+    margin-left: 100px !important;
+  }
+  .sponsor .dream img {
+    height: 100px !important;
+    width: 100px !important;
+    margin-left: 110px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .sponsor .byju img {
+    width: 150px;
+  }
+  .sponsor .paytm img {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    margin-left: 70px;
+  }
+  .sponsor .star img {
+    margin-top: 10px;
+    height: 90px;
+    margin-left: 80px;
+  }
+  .sponsor .dream img {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+}
+
+.footer {
+  background-color: #1c1b29;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer .row {
+  padding: 20px 0px;
+}
+
+.footer span {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+}
+
 * {
   margin: 0px;
   padding: 0px;

@@ -1,0 +1,14 @@
+.footer {
+  background-color: $darkColor;
+  color: $lightColor;
+  text-align: center;
+
+  & .row {
+    padding: 20px 0px;
+  }
+
+  & span {
+    font-family: $secondaryFont;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,60 @@
+.teampart {
+  background-color: #e9ecef;
+
+  & .team {
+    padding: 50px;
+
+    & .fullcontent {
+      & h3 {
+        font-family: $secondaryFont;
+        font-weight: 800;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      & h5 {
+        font-family: $secondaryFont;
+        font-weight: 500;
+        color: $borderColor;
+        font-style: italic;
+      }
+
+      & p {
+        font-style: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .card {
+    & img {
+      height: 100%;
+      width: 100%;
+    }
+    & h5 {
+      font-size: 14px;
+    }
+
+    & p {
+      font-size: 12px;
+      text-justify: distribute-all-lines;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+}
